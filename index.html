@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Coding Koala HTML</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Assistant:wght@200..800&family=Comfortaa:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <button class="menu-button">
+            menu
+        </button>
+        <h1>HTML</h1>
+    </header>
+
+    <nav class="off-screen-menu">
+        <ul>
+            <ul class="language-list">
+                <li class="js-button"><a href="../Koala-JS/index.html">JavaScript</a></li>
+                <li class="css-button"><a href="../Koala-CSS/index.html">CSS</a></li>
+            </ul>
+            <li class="topic-list topic--0">Basics</li>
+            <li class="topic-list topic--1">Content models</li>
+            <li class="topic-list topic--1">Common elements</li>
+            <li class="topic-list topic--1">Common attributes</li>
+        </ul>
+        <div class="off-screen-menu-border"></div>
+    </nav>
+
+    <div class="game-container">
+        <img class="koala-illustration" src="./Koala HTML.png" alt="koala illustration">
+
+        <aside class="score-window">
+            <section class="correct score-box">
+                <h2>right</h2>
+                <p class="correct-score">0/100</p>
+            </section>
+
+            <section class="wrong score-box">
+                <h2>wrong</h2>
+                <p class="wrong-score">0/100</p>
+            </section>
+        </aside>
+        <main class="game-window">
+            <div class="game-window-border"></div>
+            <section class="question block">
+                <h2 class="indicator">Q</h2>
+                <p class="questionTxt">This is an example question, for when I'm still designing?</p>
+            </section>
+
+            <section class="answer a0 block">
+                <h2 class="indicator">A</h2>
+                <p class="answer--0">This is an exmple answer, for when I'm still designing. It needs to be a little
+                    longer
+                    than
+                    the question, so I'm going on a bit longer.</p>
+            </section>
+
+            <section class="answer a1 block">
+                <h2 class="indicator">B</h2>
+                <p class="answer--1">This is an example answer, for when I'm still designing. It needs to be a
+                    little
+                    shorter
+                    than the other two questions.</p>
+            </section>
+
+            <section class="answer block a2">
+                <h2 class="indicator">C</h2>
+                <p class="answer--2">This is the third example answer, for when I'm still designing.</p>
+            </section>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
